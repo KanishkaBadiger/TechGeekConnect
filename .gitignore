@@ -2,9 +2,15 @@
 venv/
 .venv/
 
+**/venv/
+**/.env
+
 # Python cache
 __pycache__/
 *.pyc
+
+**/__pycache__/
+**/*.pyc
 
 # Environment variables
 .env
@@ -15,3 +21,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Streamlit
+.streamlit/
